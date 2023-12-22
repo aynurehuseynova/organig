@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 70px;
+}
+header nav .allmenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .allmenu .navul {
+  gap: 20px;
+}
+header nav .allmenu .navul .homeli a {
+  color: #7FAD39;
+}
+header nav .allmenu .navul li {
+  font-size: 14px;
+  font-weight: 900;
+  transition: 0.3s seson;
+}
+header nav .allmenu .navul li a:hover {
+  color: #7FAD39;
+}
+header nav .icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header nav .icon-text .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+}
+header nav .icon-text .text p {
+  margin: auto;
+}
+header nav .icon-text .text p span {
+  margin: auto;
+  font-weight: 900;
+}
+
+.allCatagory {
+  width: 100%;
+}
+.allCatagory .vegetable {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.allCatagory .vegetable button {
+  width: 15%;
+  min-height: 45px;
+  border: none;
+  background-color: #7FAD39;
+  color: white;
+}
+.allCatagory .vegetable .div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.allCatagory .Organic {
+  display: flex;
+  width: 100%;
+  min-height: 350px;
+  align-items: center;
+  background-size: cover;
+  background-image: url("https://preview.colorlib.com/theme/ogani/img/hero/banner.jpg");
+}
+.allCatagory .Organic .Free {
+  width: 100%;
+  padding-left: 30px;
+}
+.allCatagory .Organic .Free h1 {
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.allCatagory .Organic .Free button {
+  padding: 12px 30px;
+  background-color: #7FAD39;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 448px) {
+  .allCatagory .vegetable {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  #fruit .fresh h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 448px) {
+  #fruit .fresh h1 {
+    font-size: 30px;
+  }
+}
+#organic {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#organic .wegetables .img img {
+  width: 100%;
+}
+#organic .wegetables .text-vegatable {
+  text-align: center;
+}
+#organic .wegetables .text-vegatable p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#featured-product {
+  width: 100%;
+  min-height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#featured-product .featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#featured-product .featured .line {
+  background-color: #7FAD39;
+  width: 10%;
+  min-height: 3px;
+}
+#featured-product .featured .list {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#featured-product .featured .list ul {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#featured-product .featured .list ul li {
+  list-style-type: none;
+}
+#featured-product .featured .list ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#production {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#production .container #popular {
+  flex-wrap: wrap;
+  display: flex;
+}
+#production .container #popular .searchDiv img {
+  width: 50%;
+}
+#production .container .button {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+#production .container .button button {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  padding: 14px 44px;
+}
+#production .container .button button:hover {
+  color: black;
+  background-color: white;
+}
+#production .container #product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#production .container #product #abcd {
+  min-height: 100px;
+}
+#production .container #product input {
+  width: 30%;
+  min-height: 40px;
+  border-radius: 50px 0px 0px 30px;
+}
+#production .container #product #btn {
+  max-width: 160px;
+  padding: 7px;
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+  background-color: #7FAD39;
+}
+#production .container #product .boxDiv {
+  min-height: 300px;
+}
+#production .container #product .boxDiv .button {
+  color: white;
+  background-color: #7FAD39;
+  border-radius: 20px;
+  transition: 1s;
+  border: 1px solid #7FAD39;
+  padding: 8px;
+}
+#production .container #product .boxDiv .button:hover {
+  background-color: white;
+  color: #7FAD39;
+}
+
+#populiary {
+  width: 100%;
+  min-height: 400px;
+  background-color: #EFEFEF;
+}
+#populiary .TABLE {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 250px;
+  width: 100%;
+}
+#populiary .TABLE h5 {
+  color: #7FAD39;
+  font-size: 30px;
+  font-family: poppins;
+}
+#populiary .TABLE h3 {
+  color: black;
+  font-size: 60px;
+  font-family: poppins;
+  font-weight: 900;
+}
+#populiary .watch {
+  min-height: 950px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#populiary .watch img {
+  min-height: 650px;
+  width: 100%;
+}
+
+#vegatable-frute {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#vegatable-frute .frute img {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 70px;
+}
+header nav .allmenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav .allmenu .navul {
+  gap: 20px;
+}
+header nav .allmenu .navul .homeli a {
+  color: #7FAD39;
+}
+header nav .allmenu .navul li {
+  font-size: 14px;
+  font-weight: 900;
+  transition: 0.3s seson;
+}
+header nav .allmenu .navul li a:hover {
+  color: #7FAD39;
+}
+header nav .icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header nav .icon-text .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+}
+header nav .icon-text .text p {
+  margin: auto;
+}
+header nav .icon-text .text p span {
+  margin: auto;
+  font-weight: 900;
+}
+
+#product-sec {
+  width: 100%;
+  min-height: 600px;
+}
+#product-sec #getProduct {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+#product-sec #getProduct .box .btn {
+  padding: 11px 20px;
+  background-color: #232A35;
+  color: #F0F0F2;
+  font-size: 20px;
+}
+#product-sec #getProduct .box .btn:hover {
+  background-color: #FF003C;
+  border-color: #FF003C;
+}
